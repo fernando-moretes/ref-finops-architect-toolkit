@@ -28,7 +28,7 @@ Vercel: **Settings → Domains → Add** → `finops-toolkit.moretes.com`.
 
 ## 5. Cloudflare DNS
 
-Add CNAME `finops` → `cname.vercel-dns.com`, **DNS only** (gray cloud).
+Add CNAME `finops-toolkit` → `cname.vercel-dns.com`, **DNS only** (gray cloud).
 
 ## 6. Verify
 
