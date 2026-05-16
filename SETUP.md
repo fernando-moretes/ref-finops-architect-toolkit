@@ -1,6 +1,6 @@
 # Setup — Vercel + Cloudflare
 
-Connect this repository to Vercel and expose it on `finops.moretes.com`.
+Connect this repository to Vercel and expose it on `finops-toolkit.moretes.com`.
 
 ## 1. Vercel project
 
@@ -24,7 +24,7 @@ gh secret set VERCEL_PROJECT_ID --body "<project-id>"
 
 ## 4. Custom subdomain
 
-Vercel: **Settings → Domains → Add** → `finops.moretes.com`.
+Vercel: **Settings → Domains → Add** → `finops-toolkit.moretes.com`.
 
 ## 5. Cloudflare DNS
 
@@ -33,5 +33,5 @@ Add CNAME `finops` → `cname.vercel-dns.com`, **DNS only** (gray cloud).
 ## 6. Verify
 
 ```bash
-curl -I https://finops.moretes.com
+curl -I https://finops-toolkit.moretes.com
 ```

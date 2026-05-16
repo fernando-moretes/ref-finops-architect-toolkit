@@ -14,7 +14,7 @@ real conversations about cloud spend.
 
 ## Live portfolio / Portfolio ao vivo
 
-- **Production:** [FinOps Architect Toolkit](https://finops.moretes.com)
+- **Production:** [FinOps Architect Toolkit](https://finops-toolkit.moretes.com)
 - **Documentation:** [Project docs](docs/architecture.md)
 - **GitHub:** [fernandofatech/finops-architect-toolkit](https://github.com/fernandofatech/finops-architect-toolkit)
 - **Author:** [Fernando Francisco Azevedo](https://fernando.moretes.com) · [LinkedIn](https://www.linkedin.com/in/fernando-francisco-azevedo/) · [GitHub](https://github.com/fernandofatech)
