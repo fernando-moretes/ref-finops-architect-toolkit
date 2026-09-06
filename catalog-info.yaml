@@ -1,0 +1,25 @@
+# Gerado por fernando-moretes/platform. Não edite aqui: mude no orquestrador e
+# rode `make rollout`. É o que o Backstage (backstage.home.lab) lê deste repo.
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ref-finops-architect-toolkit
+  description: AWS FinOps toolkit: RI vs On-Demand, S3 storage class optimizer, Lambda cost estimator, tagging strategy.
+  annotations:
+    github.com/project-slug: fernando-moretes/ref-finops-architect-toolkit
+    backstage.io/source-location: url:https://github.com/fernando-moretes/ref-finops-architect-toolkit
+    sonarqube.org/project-key: ref-finops-architect-toolkit
+  links:
+    - url: https://github.com/fernando-moretes/ref-finops-architect-toolkit/actions
+      title: Actions
+      icon: github
+    - url: https://sonarqube.home.lab/dashboard?id=ref-finops-architect-toolkit
+      title: SonarQube
+    - url: https://defectdojo.home.lab/product?name=ref-finops-architect-toolkit
+      title: DefectDojo
+  tags: [documentation, ci-node.yml]
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: group:plataforma
+  system: homelab
