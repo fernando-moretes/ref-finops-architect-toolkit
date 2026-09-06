@@ -4,7 +4,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ref-finops-architect-toolkit
-  description: AWS FinOps toolkit: RI vs On-Demand, S3 storage class optimizer, Lambda cost estimator, tagging strategy.
+  description: "AWS FinOps toolkit: RI vs On-Demand, S3 storage class optimizer, Lambda cost estimator, tagging strategy."
   annotations:
     github.com/project-slug: fernando-moretes/ref-finops-architect-toolkit
     backstage.io/source-location: url:https://github.com/fernando-moretes/ref-finops-architect-toolkit
@@ -17,7 +17,9 @@ metadata:
       title: SonarQube
     - url: https://defectdojo.home.lab/product?name=ref-finops-architect-toolkit
       title: DefectDojo
-  tags: [documentation, ci-node.yml]
+  # tags so aceitam [a-z0-9-]: ci-node.yml (ci-node.yml) tem ponto e reprovava
+  # todo componente na policy check do Backstage.
+  tags: [documentation, node]
 spec:
   type: documentation
   lifecycle: experimental
