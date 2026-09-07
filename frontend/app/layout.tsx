@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "FinOps Architect Toolkit",
     description: "AWS cost calculators and FinOps decision support for solution architects.",
-    url: "https://finops.moretes.com",
+    url: "https://finops-toolkit.moretes.com",
     siteName: "FinOps Architect Toolkit",
   },
 };
