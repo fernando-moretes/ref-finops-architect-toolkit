@@ -11,7 +11,7 @@ in `frontend/lib/`. There is no database — all calculations happen client-side
   with provenance comments.
 - **Docs (`docs/`):** architecture notes, ADRs, references to AWS pricing.
 - **CI/CD:** validate, build, scan, deploy.
-- **Hosting:** Vercel; DNS via Cloudflare for `finops.moretes.com`.
+- **Hosting:** Vercel; DNS via Cloudflare for `finops-toolkit.moretes.com`.
 
 ## Pricing source of truth
 

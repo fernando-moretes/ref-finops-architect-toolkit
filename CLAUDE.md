@@ -6,7 +6,7 @@ Guidance for Claude Code when working in this repository.
 
 `finops-architect-toolkit` is a portfolio FinOps companion for AWS architects:
 RI vs On-Demand calculators, S3 storage class optimizers, Lambda cost
-estimators and tagging strategies. The frontend at `finops.moretes.com` hosts
+estimators and tagging strategies. The frontend at `finops-toolkit.moretes.com` hosts
 the interactive calculators.
 
 ## Tech stack
